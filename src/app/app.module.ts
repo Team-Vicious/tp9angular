@@ -6,6 +6,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { InstrumentosComponent } from './components/instrumentos/instrumentos.component';
 import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
+import { DetalleInstrumentoComponent } from './components/detalle-instrumento/detalle-instrumento.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
     NavbarComponent,
     HomeComponent,
     InstrumentosComponent,
-    UbicacionComponent
+    UbicacionComponent,
+    DetalleInstrumentoComponent
   ],
   imports: [
     BrowserModule,
